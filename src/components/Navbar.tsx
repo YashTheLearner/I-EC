@@ -16,9 +16,14 @@ function Navbar() {
         <div className="flex gap-4 items-center">
           <div className="bg-slate-200 h-6 w-6 rounded-full"></div>
           yash
-        </div>:<div onClick={()=>{
+        </div>:<>
+        <div onClick={()=>{
             setIsAuthenticated(true)
         }}>Login</div>
+        <div onClick={()=>{
+            setIsAuthenticated(true)
+        }}>Register</div>
+        </>
         }
       </div>
     </div>
